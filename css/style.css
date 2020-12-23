@@ -1,0 +1,245 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+body,html{
+	height: 100%;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	padding-left: 0;
+}
+.no-padding{
+	padding: 0;
+}
+.light-gry{
+  background-color: #818285;
+}
+.dark-color{
+  background-color: #585859;	
+}
+
+
+header{
+	padding: 20px 0;
+}
+header ul li{
+	display: inline-block;
+	margin: 35px 10px 0;
+}
+header ul li a{
+	color: #231f20;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+header ul li a:hover{
+	color: #CF953E;
+}
+.banner-bg {  
+  background-image: url("../images/banner.png");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-align-center{    
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-align-center img{
+	display: block;
+	margin: 0 auto 40px;
+}
+.banner-bg .inner-text{
+    position: absolute;
+    background: url("../images/text-line.png") no-repeat 0 0 /cover;
+    top: 30%;
+    padding: 20px;
+    width: 203px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    left: 0;
+}
+
+.edition .inner-box{
+	padding: 300px 30px;
+	text-align: center;
+}
+.edition .inner-box h2{
+	font-size: 64px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.edition  img{
+	width: 45%;
+}
+
+.grey-bg{
+	position: relative;		
+}
+.grey-bg:before{
+	content: "";
+    position: absolute;
+    background: url(../images/greidient-bg.png) no-repeat 0 0 /cover;
+    left: 3%;
+    right: 3%;
+    top: 3%;
+    bottom: 3%;
+
+}
+.sale-bg{
+	 
+	 padding: 100px 50px;
+	 margin:0 50px;
+}
+.sale-bg h3{
+	    color: #231f20;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.sale-bg p{
+	font-weight: 500;
+    font-size: 13px;
+    max-width: 610px;
+    margin-top: 100px;
+}
+.sale-bg .sign-btn{
+	 margin-top: 100px;
+	 width: 40%;
+}
+
+.slide-second{
+	background-color: #585859;
+	padding: 250px 0;
+	margin: 100px 0;
+}
+.slide-second h2{
+	text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 65px;
+}
+.slide-second img{
+	margin: 15px auto;
+    width: 23%;
+}
+
+.carousel-control-prev-icon{
+	background-image:url("../images/left.png");
+	width: 30px;
+	background-size: auto;
+    height: 30px;
+}
+.carousel-control-next-icon{
+	background-image:url("../images/right.png");
+	width: 30px;
+	background-size: auto;
+    height: 30px;
+}
+
+
+.newsletter{
+	background: url("../images/follows-bg.png")no-repeat 0 0/cover;
+	padding: 180px 0;
+	margin: 100px 0;
+}
+.newsletter .inner-box{
+	width: 500px;
+    float: right;
+    margin-right: 12%;
+}
+.newsletter h2{
+		color: #fff;
+		font-size: 37px;
+		text-transform: uppercase;
+		font-weight: 500;
+}
+.newsletter h5{
+		color: #fff;
+		font-size: 28px;		
+		font-weight: 300;
+		margin-top: 70px;
+		border-bottom: 1px solid #fff;
+		padding-bottom: 25px;
+}
+.newsletter img{
+	margin-top: 60px;
+	width: 44%;
+}
+
+
+.follow-us{
+	text-align: center;
+	padding: 100px 0;
+	background: url("../images/text-line.png")no-repeat 0 0/cover;
+	margin: 100px 20px;
+}
+.follow-us h2{
+	color: #231f20;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.follow-us li{
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+
+
+
+
+footer {
+	background: url("../images/footer-bg.png")no-repeat 0 0/cover;
+	padding: 200px 0;
+}
+footer ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 11%;
+}
+footer ul:last-child{
+	margin-right: 0;
+}
+footer li{
+	display: block;
+	margin-bottom: 10px;
+}
+footer li a{
+	color: #231f20;
+	font-weight: 500;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+footer li a span{
+	text-transform: lowercase;
+}
+footer img{
+	    width: 70%;
+    margin-top: 25px;
+}
+
+
+
+.bottom-footer,.bottom-footer li a{
+	padding: 20px 0;
+	color: #231f20;
+	font-weight: 300;
+	font-size: 16px;
+}
+.bottom-footer li{
+	display: inline-block;
+	margin-left: 10px;
+}
+.bottom-footer li a:hover,footer li a:hover{
+	color: #CF953E;
+}
