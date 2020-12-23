@@ -37,6 +37,9 @@ header ul li a{
 header ul li a:hover{
 	color: #CF953E;
 }
+header .search{
+	width: 20px;
+}
 .banner-bg {  
   background-image: url("../images/banner.png");
   height: 100%; 
