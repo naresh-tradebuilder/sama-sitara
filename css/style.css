@@ -60,7 +60,7 @@ header .search{
 	display: block;
 	margin: 0 auto 40px;
 }
-.banner-bg .inner-text{
+.banner-bg .inner-text,.banner-bg-first .inner-text{
     position: absolute;
     
     top: 30%;
@@ -74,7 +74,9 @@ header .search{
     border-image-source: linear-gradient(45deg, rgb(253 204 154 / 1), rgb(169 116 42 / 1));
     border-image-slice: 1;
 }
-
+.edition{
+	 margin-top: 100px;
+}
 .edition .inner-box{
 	padding: 300px 30px;
 	text-align: center;
@@ -205,7 +207,15 @@ header .search{
 	margin: 10px 30px;
 }
 
+.banner-bg-first{
+	background-image: url(../images/banner1.png);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
+}
 
 
 
