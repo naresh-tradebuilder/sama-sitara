@@ -1,0 +1,242 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}   
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+}
+.d-flex {
+    display: flex!important;
+}
+.checkout-header-section-styling {
+    flex: 1;
+    text-align: center!important;
+}
+.checkout-actieve {
+    font-weight: 500;
+    text-decoration: overline;
+}
+.confirmation-text-opacity[_ngcontent-gse-c60] {
+    opacity: .6;
+}
+.checkout-header-section-styling {
+    flex: 1;
+    text-align: center!important;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-family: futura-pt,sans-serif;
+    font-size: 1rem;
+    font-weight: 200!important;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.custom-control-label:before, .form-control {
+    border: 1px solid rgba(65,64,66,.15)!important;
+    border-radius: 0!important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.mt-1, .my-1 {
+    margin-top: .25rem!important;
+}
+.firstName-margin {
+    margin-right: 5px;
+}
+.confirmation-text-opacity{
+    opacity: 0.6;
+}
+#tncAccept:hover, #tncAccept:focus{
+    cursor: pointer !important;
+}
+::placeholder{
+    opacity: 0.5;
+}
+label.custom-control-label p {
+  text-transform: none;
+}
+.address-style label.custom-control-label {
+  width: 100%;
+  cursor: pointer;
+}
+.container.margin-top-bottom {
+  margin-top: 181px;
+  margin-bottom: 181px;
+}
+
+.mian-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+span.validcountry span:last-child {
+  display: none;
+}
+.img-child{
+    flex:1;
+}
+.description-child {
+    flex:3;
+}
+.price-child{
+    flex:2;
+    float: right
+}
+
+.product-thumbnail{
+    width: 70px;
+    height: auto;
+}
+.product-header{
+    margin-left: 0.25rem;
+    text-transform: uppercase;
+}
+.price-total-child{
+    flex:4;
+}
+.product-description{
+    margin-left: 0.25rem;
+    margin-top:-0.8rem;
+    font-size: 0.75rem !important;
+}
+
+.product-description-price{
+    font-size: 0.75rem !important;
+    margin: auto 0 auto 1rem;
+    float: right;
+}
+.bottom-margin{
+    margin-bottom: -1rem;
+}
+
+.pay-button-flex {
+    display: flex;
+    flex-flow: column;
+}
+.pay-btn-postion{
+    text-align: right;
+}
+.icon-wrapper{
+    display: flex;
+    flex-direction: row !important;
+}
+
+a{
+    color : #414042 !important;
+    text-decoration: underline;
+}
+a:hover{
+    color: #E3A67D !important;
+}
+/*custom css JK*/
+.messagecolor{
+  color: #E3A67D;
+  margin-top: 5px;
+  font-size: 20px !important;
+  font-weight: 400;
+}
+.shippingAddress span.type {
+  padding: 5px 12px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px;
+  text-transform: uppercase;
+}
+.childShippingAddress {
+  padding: 26px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+.custom-add-new{
+  float:right;
+}
+.address-style {
+  padding: 0px 10px;
+}
+.childShippingAddress p {
+  line-height: 30px;
+}
+.custom-radio.childShippingAddress label.custom-control-label {
+  text-transform: uppercase;
+}
+
+.childShippingAddress input[type="radio"] {
+  width: 6%;
+  height: 29px;
+  float: left;
+}
+#shippingAddressForm .btn-primary:disabled {
+  display: none;
+}
+.header-checkout a.nav-link.logotxt {
+    width: 93%;
+    text-align: center;
+}
+header.siteheader.checkout-page {
+    border-bottom: 1px solid cadetblue;
+}
+footer.sitefooter.footer-checkout {
+    padding: 100px 0 60px;
+}
+
+/* Media Queries */
+@media (min-width: 667px) {
+ .product-thumbnail{
+        width: 100px;
+        height: auto;
+    }
+    .product-qty-column{
+        grid-row: 2/2;
+        grid-column: 2/4;
+        display: inline-flex;
+        align-items: center !important;
+        height: 30px;
+    }
+
+}
+
+/* Updated Width and Spacing for small devices.  */
+@media (max-width: 320px) {
+    .qty-btn-styling{
+        margin: 0px 3px;
+    }
+    .box-layouts{
+        max-width: 40px;
+    }
+    .pay-btn-postion{
+        width: 80%;
+     }
+}
+
+
+@media only screen and (min-width: 768px){
+    .check-out-flex-container{
+        display: flex;
+        flex-direction: row!;
+    }
+    .flex-child{
+        flex: 1;
+    }
+
+}
+
+@media only screen and (max-width:767.98px){
+    .mobile-margin{
+        margin-top: 3rem;
+    }
+
+}

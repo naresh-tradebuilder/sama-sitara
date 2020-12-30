@@ -19,8 +19,21 @@ ul{
 .dark-color{
   background-color: #585859;	
 }
+footer.footer-checkout {
+    padding: 50px 0px;
+}
 
-
+footer.footer-checkout .footer-col.text-right {
+    margin-top: 95px;
+}
+header.checkout-page {
+    border-bottom: 1px solid #f7d696;
+}
+.checkout-buttom{
+	background-color: #c4934c;
+    border: 1px solid;
+    padding: 7px 20px;
+}
 header{
 	padding: 20px 0;
 }
